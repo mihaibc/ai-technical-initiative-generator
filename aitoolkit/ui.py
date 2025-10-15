@@ -179,14 +179,15 @@ def build_ui() -> gr.Blocks:
         with gr.Tab("About"):
             gr.Markdown(
                 """
-                ### The Engineering Leader's AI Toolkit — Pillar 2
-                This Space turns a business objective into a categorized, actionable initiative plan.
+                ### About: AI Technical Initiative Generator
+                This tool transforms a business objective into a categorized, actionable initiative plan for engineering leaders.
 
-                - Diagnostics (Pillar 1): Code Review Quality Analyzer
-                - Strategy (Pillar 2): Technical Initiative Generator (this Space)
-                - People & Culture (Pillar 3): Coming soon
+                - Connect data sources (CSV/JSON uploads or URLs with Basic/Bearer auth) to ground outputs in your context.
+                - Optionally enable web research to incorporate recent, real‑world insights.
+                - Choose which categories to include and how many initiatives per category.
+                - Each initiative includes: Why now, Expected impact metric, and Effort.
 
-                Configure data sources and optionally enable web research to ground the plan in reality.
+                Notes: Avoid uploading sensitive data to public Spaces. Enable Internet in Space settings to use web research and URL connectors.
                 """
             )
 
