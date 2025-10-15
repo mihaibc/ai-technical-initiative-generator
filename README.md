@@ -1,3 +1,14 @@
+---
+title: AI Technical Initiative Generator
+emoji: 🧭
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "5.49.1"
+app_file: app.py
+pinned: false
+---
+
 # AI-Powered Technical Initiative Generator
 
 Turn a business objective into a pragmatic, categorized initiative plan for engineering leaders. Built for Hugging Face Spaces with a professional Gradio UI, modular agent, web research, and pluggable data sources.
